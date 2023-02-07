@@ -43,6 +43,12 @@ a {
   width: fit-content;
 }
 
+@media (max-width: 500px) {
+  .itemDiv {
+    font-size: 15px;
+  }
+}
+
 .pProduct {
   margin-left: 10px;
   font-size: 10px;
@@ -92,6 +98,17 @@ a {
   align-self: center;
 }
 
+@media (max-width: 500px) {
+  .cardDiv {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    height: 220px;
+    width: 300px;
+  }
+}
+
+
+
 .contactDiv {
   background-color: lightblue;
   margin-top: 30px;
@@ -113,6 +130,17 @@ a {
   margin-top: 20px;
 }
 
+@media (max-width: 500px) {
+  .mapsDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
 .headerDiv {
   display: flex;
   width: 100%;
@@ -128,6 +156,14 @@ a {
   padding-left: 10%;
 }
 
+@media (max-width: 500px) {
+  .containerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .fermeproductDiv{
   border: 1px solid white;
   border-radius: 5px;
@@ -135,11 +171,23 @@ a {
   background: rgba(247, 247, 249, 0.7)
 }
 
+@media (max-width: 500px) {
+  .fermeproductDiv {
+    width: 280px;
+  }
+}
+
 .itemContainer{
   background: rgba(247, 247, 249, 0.8);
   height: 150px;
   overflow-y: scroll;
   border-top: 1px solid lightgray;
+}
+
+@media (max-width: 500px) {
+  .itemContainer {
+    height: 100px;
+  }
 }
 
 .searchInput{
@@ -154,4 +202,15 @@ a {
 .patchInput{
   margin-left: 5px;
   width: 80px;
+}
+
+.map{
+  height: 400px;
+  width: 400px;
+}
+@media (max-width: 500px) {
+  .map {
+    height: 280px;
+    width: 300px;
+  }
 }

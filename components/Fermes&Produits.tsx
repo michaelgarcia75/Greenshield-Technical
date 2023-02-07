@@ -164,7 +164,7 @@ const FermesProduits = () => {
     }
     </div>
       <div className="mapsDiv">
-      <iframe src={`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`} height="400px" width="400px"></iframe>
+      <iframe src={`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`} className="map"></iframe>
 
       {isOpen && selectedFarm ? <Card data={selectedFarm} /> : null}
       </div>
